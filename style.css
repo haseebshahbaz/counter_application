@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.counter-container {
+    text-align: center;
+}
+
+#counter {
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+#even-odd {
+    font-weight: bold;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.history-container {
+    margin-top: 50px;
+}
+
+.history-container h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
